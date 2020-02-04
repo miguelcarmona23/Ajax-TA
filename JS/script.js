@@ -5,3 +5,9 @@ const cities = [];
 fetch(endpoint)
     .then(blob => blob.json())
     .then(data => cities.push(...data));
+
+function findMatches(wordToMatch, cities) {
+    return cities.filter(place => {
+        return places.city.match();
+    })
+}
