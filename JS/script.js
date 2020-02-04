@@ -12,3 +12,7 @@ function findMatches(wordToMatch, cities) {
         return place.city.match(regex) || place.state.match(regex)
     });
 }
+
+function displayMatches() {
+    console.log(this.value);
+}
