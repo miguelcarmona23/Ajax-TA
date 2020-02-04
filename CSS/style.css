@@ -70,3 +70,7 @@ input.search {
 span.population {
     font-size: 15px;
 }
+
+.hl {
+    background: #00ffd5;
+}
